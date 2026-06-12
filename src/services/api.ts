@@ -7,7 +7,7 @@ import type {
 } from '../types'
 
 const api = axios.create({
-  baseURL: import.meta.env.VITE_API_URL ?? 'https://aioi-prediction-api-production.up.railway.app',
+  baseURL: import.meta.env.VITE_API_URL ?? 'https://aioi-prediction-api-production.up.railway.app/api/v1',
   headers: { 'Content-Type': 'application/json' },
 })
 
